@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Uiprogramming"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <FontFamily x:Key="ProximaNovaRegular">pack://application;,,,/Fonts/#Proxima Nova Alt Rg Regular</FontFamily>
+    <FontFamily x:Key="ProximaNovaThin">pack://application;,,,/Fonts/#Proxima Nova Th Thin</FontFamily>
+    <FontFamily x:Key="ProximaNovaBold">pack://application;,,,/Fonts/#Proxima Nova Alt Rg Bold</FontFamily>
+
+    <Style TargetType="{x:Type Control}" x:Key="BaseStyle">
+        <Setter Property="FontFamily" Value="{StaticResource ProximaNovaThin}" />
+    </Style>
+ 
+    <Style TargetType="{x:Type TextBlock}" x:Key="BaseTextBlockStyle">
+        <Setter Property="FontFamily" Value="{StaticResource ProximaNovaThin}" />
+    </Style>
+
+    <Style TargetType="{x:Type Button}" BasedOn="{StaticResource BaseStyle}" />
+    <Style TargetType="{x:Type Label}" BasedOn="{StaticResource BaseStyle}" />
+    <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource BaseStyle}" />
+    <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource BaseTextBlockStyle}" />
+    <Style TargetType="{x:Type ListView}" BasedOn="{StaticResource BaseStyle}" />
+
+    <system:Double x:Key="FontSizeRegular">20</system:Double>
+    <system:Double x:Key="FontSizeLarge">30</system:Double>
+    <system:Double x:Key="FontSizeSmall">14</system:Double>
+    
+</ResourceDictionary>

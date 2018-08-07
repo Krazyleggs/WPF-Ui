@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Uiprogramming.Styles">
+
+    <Color x:Key="BackgroundLight">#efefef</Color>
+    <SolidColorBrush x:Key="BackgroundLightBrush" Color="{StaticResource BackgroundLight}"/>
+
+    <Color x:Key="BackgroundVeryLight">#fafafa</Color>
+    <SolidColorBrush x:Key="BackgroundVeryLightBrush" Color="{StaticResource BackgroundVeryLight}"/>
+
+    <Color x:Key="ForegroundMain">#686868</Color>
+    <SolidColorBrush x:Key="ForegroundMainBrush" Color="{StaticResource ForegroundMain}"/>
+
+    <Color x:Key="ForegroundVeryDark">#efefef</Color>
+    <SolidColorBrush x:Key="ForegroundVeryDarkBrush" Color="{StaticResource ForegroundVeryDark}"/>
+
+    <Color x:Key="ForegroundLight">#ffffff</Color>
+    <SolidColorBrush x:Key="ForegroundLightBrush" Color="{StaticResource ForegroundLight}"/>
+
+    <Color x:Key="Gunmetal">#233237</Color>
+    <SolidColorBrush x:Key="GunmetalBrush" Color="{StaticResource Gunmetal}"/>
+
+    <Color x:Key="NavyBlue">#18121E</Color>
+    <SolidColorBrush x:Key="NavyBlueBrush" Color="{StaticResource NavyBlue}"/>
+
+    <Color x:Key="RustyRed">#984B43</Color>
+    <SolidColorBrush x:Key="RustyRedBrush" Color="{StaticResource RustyRed}"/>
+
+    <Color x:Key="WarmYellow">#EAC67A</Color>
+    <SolidColorBrush x:Key="WarmYellowBrush" Color="{StaticResource WarmYellow}"/>
+
+    <Color x:Key="Embers">#B82601</Color>
+    <SolidColorBrush x:Key="EmbersBrush" Color="{StaticResource Embers}"/>
+
+    <Color x:Key="Ink">#062F4F</Color>
+    <SolidColorBrush x:Key="InkBrush" Color="{StaticResource Ink}"/>
+
+</ResourceDictionary>
